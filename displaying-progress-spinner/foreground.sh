@@ -1,1 +1,1 @@
-sleep 1; asset/wait.sh
+sleep 1; assets/wait.sh
