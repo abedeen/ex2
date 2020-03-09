@@ -2,7 +2,7 @@
 
 show_progress()
 {
-  echo -n "Starting"
+  echo -n "Starting1"
   local -r pid="${1}"
   local -r delay='0.75'
   local spinstr='\|/-'
@@ -22,7 +22,7 @@ show_progress()
   printf "    \b\b\b\b"
   echo ""
   echo "Started"
-  echo -n "Configuring"
+  echo -n "Configuring1"
   while true; do 
     sudo grep -i "done" /root/katacoda-background-finished &> /dev/null
     if [[ "$?" -ne 0 ]]; then     
