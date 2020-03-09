@@ -21,7 +21,7 @@ show_progress()
   done
   printf "    \b\b\b\b"
   echo ""
-  echo "Started"
+  echo "Started1"
   echo -n "Configuring"
   while true; do 
     sudo grep -i "done" /root/katacoda-background-finished &> /dev/null
