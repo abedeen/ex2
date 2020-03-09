@@ -1,1 +1,0 @@
-Scenario to help you try and get started with [Multicolour](https://github.com/Multicolour/multicolour-example)

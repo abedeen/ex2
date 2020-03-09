@@ -1,1 +1,0 @@
-Create fully static, including rootfs embedded, binaries that pop you directly into a container.

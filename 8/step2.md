@@ -1,1 +1,0 @@
-`sed -i s/localhost/docker/g config.js`{{execute}}

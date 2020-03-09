@@ -1,1 +1,0 @@
-With _docknet_ in place you can create new projects with the command `docknet new`{{execute}}

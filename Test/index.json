@@ -1,13 +1,12 @@
 {
-  "title": "Editor iFrame Split PoC",
-  "description": "",
+  "title": "title 1",
+  "description": "description 1",
   "difficulty": "Beginner",
-  "time": "60 minutes",
+  "time": "1",
   "details": {
     "steps": [
       {
         "title": "Step 1",
-        "code": "env-init.sh",
         "text": "step1.md"
       }
     ],
@@ -19,10 +18,9 @@
     }
   },
   "environment": {
-    "uilayout": "editor-iframe-split"
+    "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "node",
-    "port": 3000
+    "imageid": "ubuntu1804"
   }
 }
