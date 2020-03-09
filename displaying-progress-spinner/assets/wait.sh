@@ -21,8 +21,9 @@ show_progress()
   done
   printf "    \b\b\b\b"
   echo ""
-  echo "Started"
-  echo -n "Configuring1"
+  echo "Starting"
+  echo -n "we are starting apisectm"
+  echo -n "http://104.42.41.159/swagger-ui.html "
   while true; do 
     sudo grep -i "done" /root/katacoda-background-finished &> /dev/null
     if [[ "$?" -ne 0 ]]; then     
